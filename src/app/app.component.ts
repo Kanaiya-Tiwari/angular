@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-compontent-interacton';
+ 
+  public name!:string;
+  public email!:string;
+  public dob!:string;
+  public updateData(item:any){
+   
+    console.log(item);
+    
+  }
 }
